@@ -1,0 +1,53 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+package-lock.json
+yarn.lock
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.genaiscript
+.env
+
+# IDE - VSCode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# local file
+proxy.conf.local.json
+proxy.conf.remote.json
+
+# Cursor-specific files
+.cursor
+.cursor-remote
+.cursor.json
+.cursecret
+.cursorignore
+cursor.log
+.cursorrule
+.cursor/plans
